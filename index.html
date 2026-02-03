@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessica Fernandes | Accounting & Finance</title>
+  <meta name="description" content="Personal website of Jessica Fernandes – Senior Accounting Lead with experience across CPG, SaaS, Manufacturing, and E-commerce." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Hi, I’m Jessica Fernandes</h1>
+      <p class="text-lg text-slate-600 mb-6">
+        Senior Accounting Lead & Onboarding Manager with experience supporting 40+ clients across
+        CPG, SaaS, Manufacturing, E-commerce, and Professional Services.
+      </p>
+      <div class="flex gap-4">
+        <a href="mailto:jessicapafernandes@gmail.com" class="bg-slate-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-800">Contact Me</a>
+        <a href="https://www.linkedin.com/in/jpuertafernandes" target="_blank" class="border border-slate-300 px-6 py-3 rounded-lg font-medium hover:bg-slate-100">LinkedIn</a>
+      </div>
+    </div>
+    <div class="flex justify-center md:justify-end">
+      <img src="istockphoto-2032785127-612x612.jpg" alt="Professional portrait" class="w-72 h-72 object-cover rounded-2xl shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold mb-10">Experience</h2>
+
+    <div class="space-y-10">
+      <div>
+        <h3 class="text-xl font-semibold">Senior Accounting Lead – Onboarding Manager</h3>
+        <p class="text-slate-500">Hammock · Remote · Jan 2022 – Present</p>
+        <ul class="mt-4 list-disc list-inside text-slate-600 space-y-2">
+          <li>Lead and supervise month-end close activities including reconciliations, accruals, inventory, COGS, and deferred revenue.</li>
+          <li>Manage relationships with 40+ clients across multiple industries.</li>
+          <li>Prepare and explain financial statements (P&L, Balance Sheet, Budget vs Actual) to executives and business owners.</li>
+          <li>Build and maintain detailed process documentation to support scalability.</li>
+          <li>Work across tools including QuickBooks, Xero, NetSuite, Bill.com, Gusto, ADP, Rippling, and more.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold">Senior Accounting Associate</h3>
+        <p class="text-slate-500">Graphite Financial · Orlando, FL · May 2021 – Oct 2021</p>
+        <ul class="mt-4 list-disc list-inside text-slate-600 space-y-2">
+          <li>Supported and managed accounting operations for eight client accounts.</li>
+          <li>Handled AP workflows using Bill.com and ran payroll through Gusto.</li>
+          <li>Prepared month-end journal entries, reconciliations, and financial packages.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-slate-700">
+        <span>Accounting Software (7+ years)</span>
+        <span>QuickBooks Online ProAdvisor</span>
+        <span>Excel & Microsoft Office</span>
+        <span>Financial Reporting</span>
+        <span>Process Documentation</span>
+        <span>Inventory & COGS</span>
+        <span>Conflict Resolution</span>
+        <span>Detail Oriented</span>
+        <span>Executive Communication</span>
+        <span>Portuguese (Native)</span>
+        <span>Spanish (Proficient)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold mb-10">Education</h2>
+    <div class="space-y-6">
+      <div>
+        <h3 class="text-xl font-semibold">Bachelor of Science in Accounting</h3>
+        <p class="text-slate-500">Utah Valley University – Woodbury School of Business</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Associate of Applied Science in Accounting</h3>
+        <p class="text-slate-500">LDS Business College</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>© <span id="year"></span> Jessica Fernandes</p>
+      <div class="flex gap-6">
+        <a href="mailto:jessicapafernandes@gmail.com" class="hover:text-white">Email</a>
+        <a href="https://www.linkedin.com/in/jpuertafernandes" target="_blank" class="hover:text-white">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

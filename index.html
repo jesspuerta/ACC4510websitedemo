@@ -17,23 +17,16 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: 'Inter', sans-serif; }
-    .glass { background: rgba(255,255,255,.72); backdrop-filter: blur(12px); }
-    .shadow-soft { box-shadow: 0 10px 30px rgba(15, 23, 42, .08); }
-    .grad { background: radial-gradient(1200px 600px at 20% 0%, rgba(148,163,184,.25), transparent 60%),
-                    radial-gradient(900px 500px at 90% 10%, rgba(226,232,240,.7), transparent 55%); }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
   <!-- Top Nav -->
-  <header class="sticky top-0 z-50 border-b border-slate-200/70 glass">
-    <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white">
+    <div class="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
       <a href="#top" class="font-semibold tracking-tight">Jessica Fernandes</a>
-      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-600">
-        <a class="hover:text-slate-900" href="#about">About</a>
+      <nav class="flex items-center gap-6 text-sm text-slate-600">
         <a class="hover:text-slate-900" href="#experience">Experience</a>
-        <a class="hover:text-slate-900" href="#skills">Skills</a>
-        <a class="hover:text-slate-900" href="#education">Education</a>
         <a class="hover:text-slate-900" href="#contact">Contact</a>
       </nav>
       <a href="#contact" class="text-sm font-medium bg-slate-900 text-white px-4 py-2 rounded-lg hover:bg-slate-800">Let’s connect</a>
@@ -41,58 +34,30 @@
   </header>
 
   <!-- HERO -->
-  <main id="top" class="grad">
-    <section class="max-w-6xl mx-auto px-6 pt-14 pb-10 grid lg:grid-cols-2 gap-12 items-center">
+  <main id="top">
+    <section class="max-w-5xl mx-auto px-6 pt-14 pb-12 grid lg:grid-cols-2 gap-12 items-center">
       <div>
-        <p class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-soft">
+        <p class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 bg-white border border-slate-200 rounded-full px-4 py-2">
           Senior Accounting Lead · Onboarding Manager · Remote
         </p>
         <h1 class="mt-6 text-4xl md:text-5xl font-bold leading-tight tracking-tight">
           Accounting leadership that keeps close, cash, and compliance moving.
         </h1>
         <p class="mt-5 text-lg text-slate-600 leading-relaxed">
-          I support businesses with reliable accounting operations—from month-end close and reconciliations to
-          inventory/COGS, payroll, AP/AR, and sales tax—while building clean processes that scale.
+          I help businesses close faster, reconcile with confidence, and keep cash and compliance moving across
+          month-end close, inventory/COGS, payroll, AP/AR, and sales tax.
         </p>
 
         <div class="mt-7 flex flex-wrap gap-3">
           <a href="mailto:jessicapafernandes@gmail.com" class="bg-slate-900 text-white px-5 py-3 rounded-xl font-medium hover:bg-slate-800">Email</a>
           <a href="https://www.linkedin.com/in/jpuertafernandes" target="_blank" rel="noreferrer" class="bg-white border border-slate-200 px-5 py-3 rounded-xl font-medium hover:bg-slate-100">LinkedIn</a>
-          <a href="#experience" class="bg-white border border-slate-200 px-5 py-3 rounded-xl font-medium hover:bg-slate-100">View experience</a>
           <!-- Add your PDF to your repo root to enable this button; rename to resume.pdf if you prefer. -->
           <a href="Jessica%20Fernandes%20Resume.pdf" class="bg-white border border-slate-200 px-5 py-3 rounded-xl font-medium hover:bg-slate-100">Download resume</a>
-        </div>
-
-        <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-soft">
-            <div class="text-2xl font-semibold">40+</div>
-            <div class="text-xs text-slate-600 mt-1">clients supported</div>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-soft">
-            <div class="text-2xl font-semibold">7+ yrs</div>
-            <div class="text-xs text-slate-600 mt-1">accounting software</div>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-soft">
-            <div class="text-2xl font-semibold">200–600</div>
-            <div class="text-xs text-slate-600 mt-1">CC expenses / week</div>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-4 shadow-soft">
-            <div class="text-2xl font-semibold">400+</div>
-            <div class="text-xs text-slate-600 mt-1">temp hires supported</div>
-          </div>
-        </div>
-
-        <div class="mt-6 flex flex-wrap gap-2">
-          <span class="text-xs font-medium bg-white border border-slate-200 px-3 py-1.5 rounded-full">QuickBooks Online ProAdvisor Certified</span>
-          <span class="text-xs font-medium bg-white border border-slate-200 px-3 py-1.5 rounded-full">Portuguese (Native)</span>
-          <span class="text-xs font-medium bg-white border border-slate-200 px-3 py-1.5 rounded-full">English (Fluent)</span>
-          <span class="text-xs font-medium bg-white border border-slate-200 px-3 py-1.5 rounded-full">Spanish (Proficient)</span>
         </div>
       </div>
 
       <div class="relative">
-        <div class="absolute -inset-6 bg-gradient-to-tr from-slate-200/60 via-white to-slate-200/30 rounded-[2rem] blur-2xl"></div>
-        <div class="relative bg-white border border-slate-200 rounded-[2rem] p-6 shadow-soft">
+        <div class="relative bg-white border border-slate-200 rounded-[2rem] p-6">
           <img src="istockphoto-2032785127-612x612.jpg" alt="Portrait" class="w-full h-[360px] object-cover rounded-2xl" />
           <div class="mt-5">
             <h2 class="text-lg font-semibold">Core strengths</h2>
@@ -103,8 +68,6 @@
               <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">Payroll</span>
               <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">Sales tax & nexus</span>
               <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">Onboarding</span>
-              <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">Audit support</span>
-              <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">Process docs</span>
             </div>
 
             <div class="mt-5 grid sm:grid-cols-2 gap-3">
@@ -122,48 +85,9 @@
       </div>
     </section>
 
-    <!-- ABOUT / WHAT I DO -->
-    <section id="about" class="max-w-6xl mx-auto px-6 py-12">
-      <div class="grid lg:grid-cols-3 gap-6">
-        <div class="lg:col-span-1">
-          <h2 class="text-3xl font-semibold tracking-tight">What I do</h2>
-          <p class="mt-3 text-slate-600">
-            I bring structure to accounting operations and help teams close faster, reconcile with confidence,
-            and communicate results clearly.
-          </p>
-        </div>
-
-        <div class="lg:col-span-2 grid sm:grid-cols-2 gap-4">
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="font-semibold">Close & reconciliations</h3>
-            <p class="mt-2 text-sm text-slate-600">Bank and balance sheet reconciliations, accrual analysis, deferred revenue reconciliations, and clean month-end packages.</p>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="font-semibold">Inventory & COGS</h3>
-            <p class="mt-2 text-sm text-slate-600">Inventory depletion and counts, COGS calculations and postings, and manufacturing labor allocations.</p>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="font-semibold">Operational accounting</h3>
-            <p class="mt-2 text-sm text-slate-600">AP, AR, invoicing, collections, cash flow management, and payroll workflows.</p>
-          </div>
-          <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="font-semibold">Onboarding & process</h3>
-            <p class="mt-2 text-sm text-slate-600">Client onboarding, documentation, training handoffs, audit support, and systems implementation support.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-8 bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-        <h3 class="font-semibold">Tools I’ve worked in</h3>
-        <p class="mt-2 text-sm text-slate-600">
-          QuickBooks · Xero · NetSuite · ADP · Bill.com · Expensify · Fathom · Gusto · Justworks · Ordway · Paylocity · iSolved · Rippling · TaxJar/TaxJax
-        </p>
-      </div>
-    </section>
-
     <!-- EXPERIENCE -->
     <section id="experience" class="bg-white border-y border-slate-200/70">
-      <div class="max-w-6xl mx-auto px-6 py-14">
+      <div class="max-w-5xl mx-auto px-6 py-14">
         <div class="flex items-end justify-between gap-6 flex-wrap">
           <div>
             <h2 class="text-3xl font-semibold tracking-tight">Experience</h2>
@@ -174,7 +98,7 @@
 
         <div class="mt-10 space-y-6">
           <!-- Hammock -->
-          <article class="border border-slate-200 rounded-2xl p-6 shadow-soft">
+          <article class="border border-slate-200 rounded-2xl p-6">
             <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
               <div>
                 <h3 class="text-xl font-semibold">Hammock</h3>
@@ -182,20 +106,16 @@
               </div>
               <p class="text-sm text-slate-500">Jan 2022 – Present</p>
             </div>
-            <ul class="mt-4 grid md:grid-cols-2 gap-x-10 gap-y-2 text-slate-700 list-disc list-inside">
+            <ul class="mt-4 space-y-2 text-slate-700 list-disc list-inside">
               <li>Perform, supervise, and train on month-end close: bank recs, payroll entries, categorization review, inventory/COGS, BS recs, accruals, and deferred revenue.</li>
-              <li>Enhanced supporting schedules to improve close efficiency and accuracy.</li>
               <li>Manage relationships with 40+ clients across Media, CPG, Manufacturing, E-commerce, SaaS, and more.</li>
               <li>Explain P&L, Balance Sheet, and budget-to-actual variances to owners, controllers, and CFOs.</li>
-              <li>Onboard new clients: review processes, improve workflows, document procedures, and train teams for handoff.</li>
-              <li>Provide audit support and year-end support (1099s, tax return documentation).</li>
-              <li>Ensure nexus compliance and file sales tax returns across multiple U.S. states.</li>
-              <li>Support weekly operations: AP, AR, invoicing, and cash flow management.</li>
+              <li>Onboard new clients by improving workflows, documenting procedures, and training teams for handoff.</li>
             </ul>
           </article>
 
           <!-- Graphite -->
-          <article class="border border-slate-200 rounded-2xl p-6 shadow-soft">
+          <article class="border border-slate-200 rounded-2xl p-6">
             <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
               <div>
                 <h3 class="text-xl font-semibold">Graphite Financial</h3>
@@ -203,18 +123,17 @@
               </div>
               <p class="text-sm text-slate-500">May 2021 – Oct 2021</p>
             </div>
-            <ul class="mt-4 grid md:grid-cols-2 gap-x-10 gap-y-2 text-slate-700 list-disc list-inside">
+            <ul class="mt-4 space-y-2 text-slate-700 list-disc list-inside">
               <li>Supported and assisted in managing 8 client accounts.</li>
               <li>Facilitated client relationships and attended client meetings.</li>
               <li>Managed AP workflows using Bill.com; entered/categorized transactions in QBO.</li>
               <li>Prepared month-end entries for depreciation and prepaid expenses.</li>
-              <li>Reconciled asset and liability accounts monthly; assisted preparing month-end financial packages.</li>
-              <li>Ran payroll in Gusto and posted payroll journal entries.</li>
+              <li>Reconciled asset and liability accounts monthly and supported month-end packages.</li>
             </ul>
           </article>
 
           <!-- G2G Bar -->
-          <article class="border border-slate-200 rounded-2xl p-6 shadow-soft">
+          <article class="border border-slate-200 rounded-2xl p-6">
             <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
               <div>
                 <h3 class="text-xl font-semibold">G2G Bar</h3>
@@ -222,127 +141,20 @@
               </div>
               <p class="text-sm text-slate-500">Apr 2020 – Jun 2021</p>
             </div>
-            <ul class="mt-4 grid md:grid-cols-2 gap-x-10 gap-y-2 text-slate-700 list-disc list-inside">
+            <ul class="mt-4 space-y-2 text-slate-700 list-disc list-inside">
               <li>Entered/categorized transactions in QBO and automated categorization processes.</li>
               <li>Managed AP (payments, planning, supplier communication) and AR (invoicing, collections), including automation.</li>
               <li>Filed sales tax returns for Utah and Canada; paid quarterly estimated income tax payments.</li>
               <li>Posted month-end entries for sales tax and depreciation; allocated manufacturing labor and COGS.</li>
-              <li>Managed logistics for shipping/delivery for top 10 customers and purchased/scheduled shipping for key materials.</li>
-              <li>Depleted inventory weekly; performed monthly FG inventory counts, adjustments, and entries.</li>
-              <li>Supported hiring workflows; managed timecards, payroll approvals, reimbursements, and 401k contributions.</li>
-              <li>Prepared monthly sales reports and annual reports for taxes (1099s, R&D credit documentation).</li>
-              <li>Assisted customers with support issues and contributed to implementing Wherefour, Shopify, Gorgias, Smartshyp.</li>
             </ul>
           </article>
-
-          <!-- Kaleidoscope Pictures -->
-          <article class="border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-              <div>
-                <h3 class="text-xl font-semibold">Kaleidoscope Pictures</h3>
-                <p class="text-slate-600">Accounting Assistant · Provo, UT</p>
-              </div>
-              <p class="text-sm text-slate-500">Mar 2019 – May 2020</p>
-            </div>
-            <ul class="mt-4 grid md:grid-cols-2 gap-x-10 gap-y-2 text-slate-700 list-disc list-inside">
-              <li>Performed bookkeeping tasks in QuickBooks Enterprise.</li>
-              <li>Downloaded and coded ~200–600 credit card expenses weekly; tracked credit card users and reports.</li>
-              <li>Reconciled 8 credit cards monthly; assisted preparing budget and expense reports.</li>
-              <li>Processed hiring paperwork for 400+ temporary hires; prepared/submitted timecards for payroll processing.</li>
-              <li>Submitted petty cash and reimbursement reconciliations.</li>
-            </ul>
-          </article>
-
-          <!-- Implementing Ideas -->
-          <article class="border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-              <div>
-                <h3 class="text-xl font-semibold">Implementing Ideas LLC</h3>
-                <p class="text-slate-600">Head Accountant · Orem, UT</p>
-              </div>
-              <p class="text-sm text-slate-500">Apr 2017 – Jun 2019</p>
-            </div>
-            <ul class="mt-4 grid md:grid-cols-2 gap-x-10 gap-y-2 text-slate-700 list-disc list-inside">
-              <li>Entered all transactions in Sage Accounting and later QBO.</li>
-              <li>Reconciled 12+ accounts weekly for the company and all sub-companies.</li>
-              <li>Managed, supervised, and trained three accountants assigned to sub-companies.</li>
-              <li>Approved timecards, prepared payroll checks, and paid payroll taxes.</li>
-              <li>Managed AP (payments and supplier communication) and AR (invoicing and collections).</li>
-              <li>Worked with executives to implement policies/procedures that improved internal efficiencies.</li>
-              <li>Prepared monthly job profitability and P&L reporting for leadership discussions.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="max-w-6xl mx-auto px-6 py-14">
-      <h2 class="text-3xl font-semibold tracking-tight">Skills</h2>
-      <p class="mt-2 text-slate-600">Operational accounting, client communication, process improvement, and systems implementation.</p>
-
-      <div class="mt-8 grid md:grid-cols-3 gap-4">
-        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-          <h3 class="font-semibold">Accounting & operations</h3>
-          <ul class="mt-3 text-sm text-slate-700 space-y-2 list-disc list-inside">
-            <li>Month-end close & reconciliations</li>
-            <li>Inventory management, COGS, and manufacturing accounting</li>
-            <li>AP / AR, invoicing, collections, cash flow</li>
-            <li>Payroll workflows & journal entries</li>
-            <li>Sales tax returns, nexus compliance, 1099 support</li>
-          </ul>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-          <h3 class="font-semibold">Communication & leadership</h3>
-          <ul class="mt-3 text-sm text-slate-700 space-y-2 list-disc list-inside">
-            <li>Client onboarding and training handoffs</li>
-            <li>Financial statement interpretation for stakeholders</li>
-            <li>Process documentation & continuous improvement</li>
-            <li>Conflict resolution & customer service</li>
-            <li>Team player · goal setting · organized</li>
-          </ul>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-soft">
-          <h3 class="font-semibold">Systems & tools</h3>
-          <ul class="mt-3 text-sm text-slate-700 space-y-2 list-disc list-inside">
-            <li>QuickBooks (Online/Enterprise) · Xero · NetSuite</li>
-            <li>Bill.com · Expensify · Fathom · Ordway</li>
-            <li>Gusto · ADP · Rippling · Justworks</li>
-            <li>Paylocity · iSolved · TaxJar/TaxJax</li>
-            <li>Microsoft Excel & Word</li>
-          </ul>
-          <div class="mt-4 flex flex-wrap gap-2">
-            <span class="text-xs font-medium bg-slate-100 text-slate-700 px-3 py-1.5 rounded-full">QuickBooks Online ProAdvisor (Certified)</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="bg-white border-y border-slate-200/70">
-      <div class="max-w-6xl mx-auto px-6 py-14">
-        <h2 class="text-3xl font-semibold tracking-tight">Education</h2>
-
-        <div class="mt-8 grid md:grid-cols-2 gap-4">
-          <div class="border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="text-lg font-semibold">Utah Valley University – Woodbury School of Business</h3>
-            <p class="text-slate-600">B.S., Accounting · Orem, UT</p>
-            <p class="mt-3 text-sm text-slate-600">Coursework: Accounting, Business Management, Finance, HR, Strategy & Implementation, Marketing</p>
-          </div>
-          <div class="border border-slate-200 rounded-2xl p-6 shadow-soft">
-            <h3 class="text-lg font-semibold">LDS Business College</h3>
-            <p class="text-slate-600">A.A.S., Accounting · Salt Lake City, UT</p>
-            <p class="mt-3 text-sm text-slate-600">Coursework: Accounting, Bookkeeping, Business Management, Finance, Personal Income Tax</p>
-          </div>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="max-w-6xl mx-auto px-6 py-14">
-      <div class="bg-slate-900 rounded-[2rem] p-8 md:p-10 text-white shadow-soft">
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-14">
+      <div class="bg-slate-900 rounded-[2rem] p-8 md:p-10 text-white">
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
           <div>
             <h2 class="text-3xl font-semibold tracking-tight">Contact</h2>
